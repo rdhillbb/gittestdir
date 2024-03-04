@@ -1,5 +1,5 @@
 sometime information is that the best way to do things.
 128
 
-I tried the same thing, only to discover that sneaky Ubuntu sets these variables in ~/.bashrc by default, which is executed instead of ~/.profile for non login shells such as just opening a terminal window. Changing these lines in ~/.bashrc fixed it for me:
+The  same thing happened to me, only to discover that sneaky Ubuntu sets these variables in ~/.bashrc by default, which is executed instead of ~/.profile for non login shells such as just opening a terminal window. Changing these lines in ~/.bashrc fixed it for me:
 
